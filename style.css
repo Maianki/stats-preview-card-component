@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white-stat: hsla(0, 0%, 100%, 0.6);
+
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background: var(--very-dark-blue);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+}
+
+.blank{
+    flex-grow: 1;
+}
+
+.card-background{
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-desaturated);
+    align-items: center;
+    width: 375px;
+}
+
+.header{
+    width: 100%;
+}
+
+
+
