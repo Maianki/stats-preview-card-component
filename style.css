@@ -57,6 +57,31 @@ body{
     color: var(--slightly-transparent-white-stat);
 }
 
+@media(min-width:786px){
+    body{
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+   .container{
+       min-width: 70vw;
+       flex-direction: row-reverse;
+     
+   }
+   .img-header{
+    width: 50%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+  }
+  .stats{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .stat-heading{
+    font-size: 10px;
+}
+
+}
 
 
 
